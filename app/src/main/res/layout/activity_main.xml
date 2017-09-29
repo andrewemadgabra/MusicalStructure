@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="MediaPlayer The Android multimedia framework includes support for playing variety of common media types, so that you can easily integrate audio, video and images into my applications"
+            android:text="Audio Wife A simple themable and integrable audio player library for Android. Helps you have an Audio Controller for your Audio Player UI"
             android:textSize="30sp" />
         <LinearLayout
             android:layout_width="match_parent"
@@ -77,6 +77,16 @@
                 android:layout_height="wrap_content"
                 android:text="Next" />
         </LinearLayout>
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/Payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Payment" />
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

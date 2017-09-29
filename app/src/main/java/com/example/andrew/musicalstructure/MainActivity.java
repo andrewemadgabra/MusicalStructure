@@ -39,5 +39,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(ARTISTIntent);
             }
         });
+        Button payment = (Button) findViewById(R.id.Payment);
+        payment.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent paymentIntent = new Intent(MainActivity.this, PaymentActivity.class);
+                startActivity(paymentIntent);
+            }
+        });
     }
 }

@@ -43,5 +43,21 @@ public class Song extends AppCompatActivity {
                 startActivity(ARTISTIntent);
             }
         });
+        Button Details = (Button) findViewById(R.id.Details);
+        Details.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ARTISTIntent = new Intent(Song.this, Album.class);
+                startActivity(ARTISTIntent);
+            }
+        });
+        Button homepage = (Button) findViewById(R.id.Homepage);
+        homepage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent homepageIntent = new Intent(Song.this, MainActivity.class);
+                startActivity(homepageIntent);
+            }
+        });
     }
 }

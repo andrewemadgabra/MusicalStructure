@@ -9,7 +9,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
+        <TextView
+            android:id="@+id/Songtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/Song"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/Textalbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="all Songs will be appear in this page"
+            android:textSize="30sp" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,14 +53,6 @@
                 android:text="ARTIST" />
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/Textalbum"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:gravity="center"
-            android:text="all Songs will be appear in this page"
-            android:textSize="30sp" />
 
         <ImageView
             android:layout_width="match_parent"
@@ -79,6 +85,23 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="Next" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/Details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="DETAILS" />
+            <Button
+                android:id="@+id/Homepage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Home page" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

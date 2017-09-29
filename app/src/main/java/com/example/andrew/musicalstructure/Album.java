@@ -38,5 +38,13 @@ public class Album extends AppCompatActivity {
                 startActivity(ARTISTIntent);
             }
         });
+        Button homepage = (Button) findViewById(R.id.Homepage);
+        homepage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent homepageIntent = new Intent(Album.this, MainActivity.class);
+                startActivity(homepageIntent);
+            }
+        });
     }
 }

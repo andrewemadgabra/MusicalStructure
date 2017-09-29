@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">"Musical Structure  "</string>
+    <string name="app_name">"Musical Structure"</string>
+    <string name="PaymentScreen">"Payment Screen"</string>
+    <string name="Song">"Song"</string>
+    <string name="album">"Album"</string>
+    <string name="main">"Main Page"</string>
+    <string name="Artist">"Artist"</string>
+    <string name="PaymentAPI">"The Google Payment API is part of Google Play Services, so you only need to import the Google Play Services library to get everything you need. Or, you can choose the APIs you want to compile yourself."</string>
 </resources>

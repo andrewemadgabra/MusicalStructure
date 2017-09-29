@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andrew.musicalstructure.PaymentActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/Payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/PaymentScreen"
+            android:paddingBottom="20dp"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/PaymentAPI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/PaymentAPI"
+            android:textSize="30sp"
+            android:paddingBottom="20dp"/>
+        <Button
+            android:id="@+id/Homepage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Home page" />
+        </LinearLayout>
+</ScrollView>

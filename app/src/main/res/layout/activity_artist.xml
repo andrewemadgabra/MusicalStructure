@@ -9,7 +9,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
+        <TextView
+            android:id="@+id/album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/Artist"
+            android:textSize="30sp" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,9 +49,9 @@
             android:id="@+id/Textartist"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="30dp"
             android:gravity="center"
-            android:text="Artist name of songs will be here in this  page"
+            android:text="Ariana grande of songs will be here in this  page"
             android:textSize="30sp" />
 
         <ImageView
@@ -80,7 +86,12 @@
                 android:layout_height="wrap_content"
                 android:text="Next" />
         </LinearLayout>
-
+        <Button
+            android:id="@+id/Homepage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Home page" />
     </LinearLayout>
 
 </ScrollView>
